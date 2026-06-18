@@ -40,6 +40,17 @@ Proceso de negocio modelado en BPMN para su implementación ejecutable en **Boni
 > Nota: el `.bpmn` por sí solo no embebe el BDM, contratos ni formularios; para una copia
 > 100 % lista para ejecutar usa el **`.bos`**.
 
+### Troubleshooting
+
+- **Error 400 "Request header is too large" al completar una tarea**: el navegador tiene
+  demasiadas cookies para `localhost` (de otros proyectos). Abre la app en una **ventana de
+  incógnito** o borra las cookies de `localhost:8080`.
+- **"Pool element name contains a forbidden character"**: el nombre del pool/proceso debe
+  ser ASCII (sin tildes ni símbolos).
+- **"No process initiator defined for Comunidad y Proveedores"**: es el pool externo (caja
+  negra); selecciona el pool principal antes de pulsar Run, o ignora el aviso y arranca el
+  proceso desde la pestaña *Processes*.
+
 ## Roles involucrados
 
 - Coordinador de RSE (iniciador)

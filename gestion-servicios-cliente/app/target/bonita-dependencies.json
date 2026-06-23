@@ -1,0 +1,49 @@
+{
+  "connectorImplementations" : [ ],
+  "filterImplementations" : [ {
+    "type" : "ACTOR_FILTER",
+    "className" : "org.bonitasoft.actorfilter.initiator.ProcessInitiatorUserFilter",
+    "implementationId" : "bonita-actorfilter-initiator-impl",
+    "implementationVersion" : "1.0.0",
+    "definitionId" : "bonita-actorfilter-initiator",
+    "definitionVersion" : "1.0",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.actorfilter",
+      "artifactId" : "bonita-actorfilter-initiator",
+      "version" : "1.0.0",
+      "file" : "C:\\Users\\yisus\\.m2\\repository\\org\\bonitasoft\\actorfilter\\bonita-actorfilter-initiator\\1.0.0\\bonita-actorfilter-initiator-1.0.0.jar"
+    },
+    "jarEntry" : "bonita-actorfilter-initiator.impl"
+  } ],
+  "connectorDefinitions" : [ ],
+  "filterDefinitions" : [ {
+    "definitionId" : "bonita-actorfilter-initiator",
+    "definitionVersion" : "1.0",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.actorfilter",
+      "artifactId" : "bonita-actorfilter-initiator",
+      "version" : "1.0.0",
+      "file" : "C:\\Users\\yisus\\.m2\\repository\\org\\bonitasoft\\actorfilter\\bonita-actorfilter-initiator\\1.0.0\\bonita-actorfilter-initiator-1.0.0.jar"
+    },
+    "jarEntry" : "bonita-actorfilter-initiator.def"
+  } ],
+  "restApiExtensions" : [ ],
+  "pages" : [ ],
+  "forms" : [ ],
+  "themes" : [ ],
+  "applicationDescriptors" : [ {
+    "displayName" : "Bonita Administrator Application",
+    "version" : "8.0",
+    "description" : "This application allows to deploy and manage all the elements of Bonita projects.",
+    "profile" : "Administrator",
+    "appToken" : "adminAppBonita",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.web.application",
+      "artifactId" : "bonita-admin-application",
+      "version" : "10.4.0",
+      "classifier" : "application",
+      "file" : "C:\\Users\\yisus\\.m2\\repository\\org\\bonitasoft\\web\\application\\bonita-admin-application\\10.4.0\\bonita-admin-application-10.4.0-application.zip"
+    }
+  } ],
+  "issues" : [ ]
+}

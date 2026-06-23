@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.1">
+    <application homePage="gestion-servicios" layout="custompage_layoutBonita" theme="custompage_themeBonita" token="gestion-servicios" version="1.0" profile="User" state="ACTIVATED">
+        <displayName>SeguimientoDeServicios</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_SeguimientoDeServicios" token="gestion-servicios"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="gestion-servicios">
+                <displayName>Seguimiento de las Solicitudes de Servicio</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>

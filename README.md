@@ -88,7 +88,7 @@ El flujo del proceso modelado en BPMN se desarrolla de la siguiente manera:
 A continuación se presenta el diagrama BPMN correspondiente al proceso de **Gestión de Servicios al Cliente** de Sodimac.
 
 <p align="center">
-  <img src="images/diagrama_bpmn.png" alt="Diagrama BPMN - Gestión de Servicios al Cliente" width="1000">
+  <img src="images/process-diagram.png" alt="Diagrama BPMN - Gestión de Servicios al Cliente" width="1000">
 </p>
 
 *Figura 1. Diagrama BPMN del proceso de Gestión de Servicios al Cliente.*

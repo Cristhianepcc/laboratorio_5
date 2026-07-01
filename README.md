@@ -126,7 +126,7 @@ A continuación se presenta el diagrama BPMN correspondiente al proceso de **Ges
 ## Herramientas utilizadas
 
 - BPMN 2.0
-- Bizagi Modeler
+- Bonita Studio Community
 - Git
 
 
